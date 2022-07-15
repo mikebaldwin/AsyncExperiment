@@ -14,6 +14,7 @@
 		CE90D11828817A0B003E2E8D /* AsyncExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D11728817A0B003E2E8D /* AsyncExperimentTests.swift */; };
 		CE90D12228817A0B003E2E8D /* AsyncExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D12128817A0B003E2E8D /* AsyncExperimentUITests.swift */; };
 		CE90D12428817A0B003E2E8D /* AsyncExperimentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D12328817A0B003E2E8D /* AsyncExperimentUITestsLaunchTests.swift */; };
+		CE90D13328817D94003E2E8D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D13228817D94003E2E8D /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CE90D11D28817A0B003E2E8D /* AsyncExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90D12128817A0B003E2E8D /* AsyncExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncExperimentUITests.swift; sourceTree = "<group>"; };
 		CE90D12328817A0B003E2E8D /* AsyncExperimentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncExperimentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE90D13228817D94003E2E8D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				CE90D10628817A09003E2E8D /* AsyncExperimentApp.swift */,
+				CE90D13228817D94003E2E8D /* Post.swift */,
 				CE90D10828817A09003E2E8D /* PostsList.swift */,
 				CE90D10A28817A0B003E2E8D /* Assets.xcassets */,
 				CE90D10C28817A0B003E2E8D /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				CE90D10928817A09003E2E8D /* PostsList.swift in Sources */,
 				CE90D10728817A09003E2E8D /* AsyncExperimentApp.swift in Sources */,
+				CE90D13328817D94003E2E8D /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
