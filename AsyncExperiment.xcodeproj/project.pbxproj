@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE90D10728817A09003E2E8D /* AsyncExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D10628817A09003E2E8D /* AsyncExperimentApp.swift */; };
-		CE90D10928817A09003E2E8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D10828817A09003E2E8D /* ContentView.swift */; };
+		CE90D10928817A09003E2E8D /* PostsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D10828817A09003E2E8D /* PostsList.swift */; };
 		CE90D10B28817A0B003E2E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE90D10A28817A0B003E2E8D /* Assets.xcassets */; };
 		CE90D10E28817A0B003E2E8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE90D10D28817A0B003E2E8D /* Preview Assets.xcassets */; };
 		CE90D11828817A0B003E2E8D /* AsyncExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D11728817A0B003E2E8D /* AsyncExperimentTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		CE90D10328817A09003E2E8D /* AsyncExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90D10628817A09003E2E8D /* AsyncExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncExperimentApp.swift; sourceTree = "<group>"; };
-		CE90D10828817A09003E2E8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE90D10828817A09003E2E8D /* PostsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsList.swift; sourceTree = "<group>"; };
 		CE90D10A28817A0B003E2E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE90D10D28817A0B003E2E8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE90D11328817A0B003E2E8D /* AsyncExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				CE90D10628817A09003E2E8D /* AsyncExperimentApp.swift */,
-				CE90D10828817A09003E2E8D /* ContentView.swift */,
+				CE90D10828817A09003E2E8D /* PostsList.swift */,
 				CE90D10A28817A0B003E2E8D /* Assets.xcassets */,
 				CE90D10C28817A0B003E2E8D /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE90D10928817A09003E2E8D /* ContentView.swift in Sources */,
+				CE90D10928817A09003E2E8D /* PostsList.swift in Sources */,
 				CE90D10728817A09003E2E8D /* AsyncExperimentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

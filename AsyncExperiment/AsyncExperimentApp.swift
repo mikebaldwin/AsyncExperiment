@@ -11,7 +11,7 @@ import SwiftUI
 struct AsyncExperimentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PostsList()
         }
     }
 }
