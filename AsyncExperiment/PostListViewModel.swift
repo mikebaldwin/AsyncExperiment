@@ -17,6 +17,7 @@ class PostListViewModel: ObservableObject {
         self.jsonPlaceholderAPI = jsonPlaceholderAPI
     }
     
+    @MainActor
     func getPosts() async throws {
         posts = try await jsonPlaceholderAPI.getPosts()
     }
