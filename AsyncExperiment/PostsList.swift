@@ -8,12 +8,19 @@
 import SwiftUI
 
 struct PostsList: View {
+    @ObservedObject var viewModel = PostListViewModel(jsonPlaceholderAPI: JsonPlaceholderAPI())
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                ForEach(viewModel.posts) { post in
+                    Text(post.title)
+                }
+            }
+            .navigationTitle("Posts")
+        }
+        .task {
+            try? await viewModel.getPosts()
         }
     }
 }
