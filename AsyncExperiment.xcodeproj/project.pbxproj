@@ -16,6 +16,7 @@
 		CE90D12428817A0B003E2E8D /* AsyncExperimentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D12328817A0B003E2E8D /* AsyncExperimentUITestsLaunchTests.swift */; };
 		CE90D13128817D4F003E2E8D /* JsonPlaceholderAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D13028817D4F003E2E8D /* JsonPlaceholderAPI.swift */; };
 		CE90D13328817D94003E2E8D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D13228817D94003E2E8D /* Post.swift */; };
+		CE90D13528817F56003E2E8D /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D13428817F56003E2E8D /* PostListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		CE90D12328817A0B003E2E8D /* AsyncExperimentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncExperimentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CE90D13028817D4F003E2E8D /* JsonPlaceholderAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonPlaceholderAPI.swift; sourceTree = "<group>"; };
 		CE90D13228817D94003E2E8D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CE90D13428817F56003E2E8D /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				CE90D10628817A09003E2E8D /* AsyncExperimentApp.swift */,
 				CE90D13028817D4F003E2E8D /* JsonPlaceholderAPI.swift */,
 				CE90D13228817D94003E2E8D /* Post.swift */,
+				CE90D13428817F56003E2E8D /* PostListViewModel.swift */,
 				CE90D10828817A09003E2E8D /* PostsList.swift */,
 				CE90D10A28817A0B003E2E8D /* Assets.xcassets */,
 				CE90D10C28817A0B003E2E8D /* Preview Content */,
@@ -265,6 +268,7 @@
 			files = (
 				CE90D13128817D4F003E2E8D /* JsonPlaceholderAPI.swift in Sources */,
 				CE90D10928817A09003E2E8D /* PostsList.swift in Sources */,
+				CE90D13528817F56003E2E8D /* PostListViewModel.swift in Sources */,
 				CE90D10728817A09003E2E8D /* AsyncExperimentApp.swift in Sources */,
 				CE90D13328817D94003E2E8D /* Post.swift in Sources */,
 			);
